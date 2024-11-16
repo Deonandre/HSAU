@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A special website for a special girl</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header, section {
+            text-align: center;
+            padding: 20px;
+            margin: 10px;
+        }
+
+        header {
+            background-color: #ff6f61;
+            color: white;
+        }
+
+        .intro {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+
+        /* Styles pour la galerie */
+        .gallery {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .gallery img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+
+        /* Styles pour les animations de texte */
+        .animated-text {
+            font-size: 1.5em;
+            animation: fadeIn 2s ease-in-out infinite alternate;
+            color: #ff6f61;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        /* Styles pour les souvenirs */
+        .memories p {
+            font-style: italic;
+            font-size: 1.1em;
+            background-color: #f0e5e5;
+            padding: 10px;
+            border-radius: 8px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- En-tête avec message spécial -->
+    <header>
+        <h1>For my princess ❤️</h1>
+        <p class="intro">This space is meant for all the moments you and i shared together.</p>
+    </header>
+
+    <!-- Galerie de photos (tu pourras ajouter des images ici) -->
+    <section>
+        <h2>Our Gallery</h2>
+        <div class="gallery">
+            <!-- Remplace les URLs des images ici -->
+            <img src="C:\Users\HP\Downloads\WhatsApp Image 2024-11-09 at 21.13.21.jpeg" alt="Photo 1">
+            <img src="C:\Users\HP\Downloads\WhatsApp Image 2024-11-09 at 21.13.17 (1).jpeg" alt="Photo 2">
+            <img src="C:\Users\HP\Downloads\WhatsApp Image 2024-11-09 at 21.13.21.jpeg" alt="Photo 3">
+            <img src="C:\Users\HP\Downloads\WhatsApp Image 2024-11-15 at 18.41.56.jpeg" alt="Photo 3">
+        </div>
+    </section>
+
+    <!-- Texte animé avec un message spécial -->
+    <section>
+        <h2>Un message pour toi</h2>
+        <p class="animated-text">You are the best thing that has ever happen to me and i hope we will last forever bcs i don't see myself loving somebody other than you</p>
+    </section>
+
+    <!-- Souvenirs et anecdotes -->
+    <section class="memories">
+        <h2>Souvenirs</h2>
+        <p>Thank you for never giving up on me</p>
+        <p>I LOVE YOU SO MUCH</p>
+    </section>
+
+</body>
+</html>
